@@ -1,51 +1,46 @@
 ---
-title: 'Home'
+# Leave the homepage title empty to use the site title
+title: ''
+summary: ''
 date: 2023-10-24
 type: landing
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
-# Page sections
 sections:
-  - block: biography
+  - block: resume-biography
     content:
       username: me
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download Résumé
-        url: uploads/resume.pdf
+      text: ''
     design:
-      show_status: false
-      spacing:
-        padding: ['0', '0', '6rem', '0']
-      banner:
-        # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
-      biography:
-        # Customize the style of your biography text
-        style: 'text-align: justify; font-size: 0.8em;'
+      background:
+        gradient_mesh:
+          enable: false
       # Avatar customization
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: rounded # Options: circle (default), square, rounded
-  - block: experience
+        shape: circle # Options: circle (default), square, rounded
+  - block: markdown
     content:
-      username: me
+      title: 'Education'
+      text: |-
+        **Ph.D. in Economics**, University of California San Diego — 2025–Present
+
+        **M.Sc. in Economics**, University of Pisa & Sant'Anna School of Advanced Studies — 2021–2023
+
+        **Honors Master in Economics and Management**, Sant'Anna School of Advanced Studies — 2021–2024
+
+        **B.Sc. in International Economics and Management**, Bocconi University — 2018–2021
     design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
-  - block: skills
+      columns: '1'
+  - block: collection
+    id: papers
     content:
-      title: Skills & Hobbies
-      username: me
-  - block: awards
-    content:
-      title: Awards
-      username: me
-  - block: languages
-    content:
-      title: Languages
-      username: me
+      title: Latest Research
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+    design:
+      view: citation
 ---

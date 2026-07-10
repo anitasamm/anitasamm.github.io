@@ -2,132 +2,154 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
+  display: Anita Sammarini
+  given: Anita
+  family: Sammarini
   pronouns: she/her
-status:
-  icon: "☕️"
-role: Director of Cloud Infrastructure
-bio: >
-  I am currently Director of Cloud Infrastructure at GenCoin where I am leading
-  teams on edge computing, deep sea data center architecture, and hivemind
-  optimization.
+role: PhD Student in Economics
+bio: |
+  I am a second-year PhD student in Economics at the University of California, San Diego. My research interests are in econometrics and macroeconomics.
+
+  Prior to my PhD, I worked as a Research Analyst in the Monetary Policy Strategy Division at the European Central Bank, where I contributed to analyses prepared for the Governing Council. I am currently co-authoring an ECB working paper studying financial asset price dynamics through structural shocks. I also served as a Research Assistant at Now-Casting Economics, where I developed a Bayesian dynamic factor model with fat tails and lead-lag dynamics for macroeconomic nowcasting.
 affiliations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: University of California San Diego
+    url: https://economics.ucsd.edu/graduate-program/about/grad-profiles/cohort_2025/anita_sammarini.html
+
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
+    url: mailto:asammarini@ucsd.edu
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/GoOwnable
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/anitasamm
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/anita-sammarini-357ab7180/
+
 education:
-  - degree: PhD Artificial Intelligence
-    institution: Stanford University
-    start: 2016-01-01
-    end: 2020-12-31
+  - degree: PhD in Economics
+    institution: University of California San Diego
+    start: 2025-09-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: "Read Thesis"
-      url: "https://example.com"
-  - degree: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
+      Second-year PhD student. Research interests: econometrics and macroeconomics.
+  - degree: MSc in Economics
+    institution: University of Pisa & Sant'Anna School of Advanced Studies
+    start: 2021-09-01
+    end: 2023-12-31
     summary: |
-      GPA: 3.8/4.0
+      GPA: 30/30. Final grade: 110/110 cum laude with Honorable Mention.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - degree: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      Relevant courses: Advanced Econometrics, Advanced Macroeconomics, Advanced Microeconomics, Advanced Statistics, Mathematics.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Thesis: _Modeling Macroeconomic Analysis: A Comparative Study of Vector Autoregressive Models and Local Projections_. Supervisors: Prof. Giuseppe Ragusa, Prof. Angela Parenti.
+  - degree: Honors Master in Economics and Management
+    institution: Sant'Anna School of Advanced Studies
+    start: 2021-09-01
+    end: 2024-11-30
+    summary: |
+      GPA: 29.5/30.
+
+      Relevant courses: Applied Econometrics, Macroeconometrics, Programming, Statistical Learning and Large Data.
+
+      Year 1 thesis: _Income Mobility and Inequality in Italy: An Empirical Study on Italian Residents from 2015 to 2019_. Supervisor: Prof. Federico Tamagni.
+
+      Year 2 thesis: _A Monte Carlo Analysis of VARs and LPs in a High-Dimensional Heteroskedastic Setting_. Supervisor: Prof. Giuseppe Ragusa.
+  - degree: BSc in International Economics and Management
+    institution: Bocconi University
+    start: 2018-09-01
+    end: 2021-07-31
+    summary: |
+      GPA: 28.2/30.
+
+      Relevant courses: International Macroeconomics, European Economic Policy, Public Policy.
+
+      Thesis: _The Repercussions of the Covid-19 Pandemic on Mental Health and Substance Abuse in the US: A Longitudinal Study_. Supervisor: Prof. Pamela Giustinelli.
+
 experience:
-  - role: Director of Cloud Infrastructure
-    org: GenCoin
-    start: 2021-01-01
+  - role: Research Assistant
+    org: Now-Casting Economics Limited
+    start: 2024-05-01
     summary: |
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - role: Backend Software Engineer
-    org: X
-    start: 2016-01-01
-    end: 2020-12-31
+      Developed the code for a Bayesian dynamic factor model (B-DFM) in Julia to compute nowcasts for macroeconomic variables, comparing its performance to nowcasts generated using an EM-algorithm. Studied the integration of lead-lag dynamics, dynamic heterogeneity, and stochastic volatility.
+  - role: Trainee
+    org: European Central Bank
+    start: 2024-04-01
+    end: 2025-04-30
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Internship in the Monetary Policy Strategy Division - Strategic Issues section, Germany. Prepared analyses for the Executive Board ahead of Governing Council meetings. Managed the Survey of Monetary Analysts and conducted related ad-hoc research. Estimated B-VAR analyses, co-authoring an ECB working paper on the drivers of inflation (in progress).
+  - role: Research Assistant
+    org: International Fund for Agricultural Development
+    start: 2023-05-01
+    end: 2023-12-31
+    summary: |
+      Provided research assistance for the UN agency, involved in the 50x2030 initiative targeting agricultural data disparity. Restructured and optimized agricultural data from Cambodia. Manipulated spatial and satellite data using the FAO remote sensing database.
+  - role: Junior Analyst
+    org: Italian Ministry of Economic Development
+    start: 2022-09-01
+    end: 2022-12-31
+    summary: |
+      Conducted detailed macroeconomic analysis for monthly conjunctural notes. Assessed key econometric issues behind evidence-based policy making.
+  - role: Academic Tutor
+    org: University of Pisa
+    start: 2022-04-01
+    end: 2022-11-30
+    summary: |
+      Tutoring activity in statistics and mathematics for students with specific learning disorders (SLD). Delivered personalized instruction to undergraduate economics students, including private lessons, notes, and visual aids.
+  - role: Intern
+    org: Italian National Institute of Statistics (ISTAT)
+    start: 2022-09-01
+    end: 2022-12-31
+    summary: |
+      Examined income statements of Italian individuals spanning 2015-2019. Authored a research paper on income inequality and mobility across Italy: constructed conditional transition probability matrices and mobility indexes, and estimated probit regressions.
+
 skills:
   - name: Technical Skills
     items:
       - label: Python
         level: 4
-      - label: RStudio
-        level: 5
-      - label: PyTorch
-        level: 2
-  - name: Hobbies
-    color: "#eeac02"
-    color_border: "#f0bf23"
-    items:
-      - label: Hiking
-        level: 3
-      - label: Cats
-        level: 5
-      - label: Photography
+      - label: R
         level: 4
+      - label: Stata
+        level: 4
+      - label: Julia
+        level: 4
+      - label: Matlab
+        level: 3
+      - label: SQL
+        level: 3
+      - label: LaTeX
+        level: 4
+
 languages:
+  - name: Italian
+    level: 5
+    label: Mothertongue
   - name: English
     level: 5
-  - name: Chinese
+    label: Proficient (C2, TOEFL 115)
+  - name: French
     level: 4
-  - name: Portuguese
-    level: 1
+    label: Fluent
+  - name: Spanish
+    level: 3
+    label: Good knowledge
+  - name: Chinese
+    level: 2
+    label: Basic knowledge (HSK3)
+
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: "2023-11-25"
-    awarder: Coursera
-    icon: brands/coursera
+  - title: Sant'Anna School of Advanced Studies Scholarship
+    date: "2021-09-01"
+    awarder: Sant'Anna School of Advanced Studies
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: "2023-07-01"
-    awarder: edX
-    icon: brands/edx
+      Awarded one of two spots in a prestigious, government-funded scholarship program covering tuition, board, lodging, and travel grants. Delivered yearly dissertations as a program mandate in addition to regular academic requirements.
+  - title: "Innovation Knowledge Exchange Competition — Winner"
+    awarder: New Jersey, United States
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: "Object-Oriented Programming in R"
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: "2023-01-21"
-    awarder: datacamp
-    icon: brands/datacamp
+      Winning team of the two-day competition, capturing the event's $10,000 team prize. Developed a multi-step strategy for achieving global health data coverage, based on Secure Multiparty Computation and an econometric panel-data model of SDG 3 target coverage.
+  - title: European Big Data Hackathon
+    awarder: European Commission, Brussels
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Selected as one of four teams from all EMOS universities to develop a policy-useful statistical prototype for the European Commission, using a random forest to predict firms' survival probability by sector. Pitched the prototype at the European Commission's Charlemagne building.
+  - title: International Youth Think Tank
+    awarder: Gothenburg, Sweden
+    summary: |
+      Selected as one of 24 students out of 219 applicants. Formulated policy recommendations on upholding democracy amid current geopolitical dynamics and co-authored the final report, "For Democracy and Against Authoritarianism."

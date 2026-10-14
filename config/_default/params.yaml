@@ -19,9 +19,9 @@ hugoblox:
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "PhD Student in Economics"
+    tagline: "PhD Student in Economics | Econometrics & Macroeconomics"
     # Site meta description for search engines and social sharing
-    description: "Anita Sammarini is a PhD student in Economics at UC San Diego, researching econometrics and macroeconomics."
+    description: "Anita Sammarini is a PhD student in Economics at UC San Diego, specializing in econometrics, macroeconomics, monetary policy, and financial asset price dynamics."
     # Social accounts (used for meta tags like Twitter Cards)
     social: {}
 
@@ -126,7 +126,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    title: "Anita Sammarini | PhD in Economics | UC San Diego"
     # For local_business identity type only
     location:
       address:
@@ -216,7 +216,7 @@ hugoblox:
   # Search engine site verification codes
   # ────────────────────────────────────────────────────────────────────────────
   verification:
-    google: ""
+    google: "tocHIWRynRt0YYjoU6CmzEjix_2rVpBtND7PZoAG7Fo"
     bing: ""
     baidu: ""
     yandex: ""

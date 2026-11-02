@@ -16,13 +16,15 @@ affiliations:
     url: https://economics.ucsd.edu/graduate-program/about/grad-profiles/cohort_2025/anita_sammarini.html
 
 links:
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/anita-sammarini-357ab7180/
+    label: LinkedIn
+  - icon: brands/github
+    url: https://github.com/anitasamm
+    label: GitHub
   - icon: at-symbol
     url: mailto:asammarini@ucsd.edu
     label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/anitasamm
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/anita-sammarini-357ab7180/
 
 education:
   - degree: PhD in Economics

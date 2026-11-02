@@ -13,11 +13,11 @@ cascade:
 sections:
   - block: markdown
     content:
-      title: ''
+      title: Courses
       text: |-
-        **Coming soon.**
+        [**Introductory Econometrics — Fall 26**](/teaching/econ120a-fall26/)
 
-        Teaching materials will be added here shortly.
+        Office hours: Wednesday, 1:00–2:00 pm, Malk 386.
     design:
       columns: '1'
 ---

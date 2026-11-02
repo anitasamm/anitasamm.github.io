@@ -3,6 +3,7 @@
 title: ''
 summary: 'Anita Sammarini is a PhD student in Economics at UC San Diego, specializing in econometrics, macroeconomics, monetary policy, and financial asset price dynamics.'
 date: 2023-10-24
+lastmod: 2026-11-01
 type: landing
 
 # Note: `username` refers to the user's folder name in `content/authors/`

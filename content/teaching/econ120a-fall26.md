@@ -12,11 +12,11 @@ Office hours: Wednesday from 1:00 to 2:00 pm, Malk 386.
 
 Material from the **Fall-26** class:
 
-#### Week 1: Descriptive Statistics
+#### Descriptive Statistics
 
 [Slides (PDF)](/uploads/teaching/week-1.pdf) · [Annotated slides (PDF)](/uploads/teaching/week-1-annotated.pdf)
 
-#### Week 2: Discrete Random Variables, Bernoulli & Binomial
+#### Discrete Random Variables, Bernoulli & Binomial
 
 [Slides (PDF)](/uploads/teaching/week-2-discrete-random-variables-bernoulli-binomial.pdf) · [Annotated slides (PDF)](/uploads/teaching/week-2-discrete-random-variables-bernoulli-binomial-annotated.pdf)
 

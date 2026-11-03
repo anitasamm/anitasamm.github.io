@@ -1,7 +1,9 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-summary: 'Anita Sammarini is a PhD student in Economics at UC San Diego, specializing in econometrics, macroeconomics, monetary policy, and financial asset price dynamics.'
+summary: 'I am a PhD student in Economics at UC San Diego. My research interests include econometrics, macroeconomics, monetary policy, and financial asset price dynamics.'
+image:
+  filename: 'authors/me.jpg'
 date: 2023-10-24
 lastmod: 2026-11-01
 type: landing
@@ -19,15 +21,8 @@ sections:
           enable: false
       # Avatar customization
       avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: xxl
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: 'About Anita Sammarini'
-      text: |-
-        Anita Sammarini is a PhD student in Economics at the University of California, San Diego. Her research focuses on econometrics, macroeconomics, monetary policy, and financial asset price dynamics. She studies structural shocks, macroeconomic forecasting, and applied empirical methods in economics.
-    design:
-      columns: '1'
   - block: markdown
     content:
       title: 'Education'

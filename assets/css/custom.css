@@ -1,0 +1,21 @@
+.resume-biography .avatar-wrapper {
+  width: min(500px, calc(100vw - 48px)) !important;
+  height: auto !important;
+}
+
+.resume-biography .avatar-wrapper .avatar {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.resume-biography .bio-text {
+  width: min(42.5rem, calc(100% - 3rem));
+  max-width: none;
+  margin-inline: auto;
+}
+
+.footer-license-icons {
+  display: none;
+}

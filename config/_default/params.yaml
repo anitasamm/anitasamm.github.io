@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "PhD Student in Economics | Econometrics & Macroeconomics"
     # Site meta description for search engines and social sharing
-    description: "Anita Sammarini is a PhD student in Economics at UC San Diego, specializing in econometrics, macroeconomics, monetary policy, and financial asset price dynamics."
+    description: "I am a PhD student in Economics at UC San Diego. My research interests include econometrics, macroeconomics, monetary policy, and financial asset price dynamics."
     # Social accounts (used for meta tags like Twitter Cards)
     social: {}
 
@@ -126,7 +126,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: "Anita Sammarini | PhD in Economics | UC San Diego"
+    title: "Anita Sammarini"
     # For local_business identity type only
     location:
       address:

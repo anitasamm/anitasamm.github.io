@@ -22,20 +22,7 @@ sections:
       # Avatar customization
       avatar:
         size: xxl
-        shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: 'Education'
-      text: |-
-        **Ph.D. in Economics**, University of California San Diego — 2025–Present
-
-        **M.Sc. in Economics**, University of Pisa & Sant'Anna School of Advanced Studies — 2021–2023
-
-        **Honors Master in Economics and Management**, Sant'Anna School of Advanced Studies — 2021–2024
-
-        **B.Sc. in International Economics and Management**, Bocconi University — 2018–2021
-    design:
-      columns: '1'
+        shape: square
   - block: collection
     id: papers
     content:

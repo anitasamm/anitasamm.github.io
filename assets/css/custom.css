@@ -1,21 +1,176 @@
-.resume-biography .avatar-wrapper {
-  width: min(500px, calc(100vw - 48px)) !important;
-  height: auto !important;
+#top {
+  background-color: #fbfaf7 !important;
+  color: #111;
 }
 
-.resume-biography .avatar-wrapper .avatar {
-  width: 100% !important;
-  height: auto !important;
-  aspect-ratio: 1;
-  object-fit: cover;
+.page-header,
+#site-header {
+  background-color: #fbfaf7 !important;
 }
 
-.resume-biography .bio-text {
-  width: min(42.5rem, calc(100% - 3rem));
-  max-width: none;
+#section-resume-biography {
+  padding-top: 4rem !important;
+}
+
+#profile.resume-biography {
+  display: grid !important;
+  grid-template-columns: 300px minmax(0, 1fr);
+  align-items: start;
+  column-gap: 58px;
+  width: min(944px, calc(100% - 48px));
   margin-inline: auto;
 }
 
-.footer-license-icons {
+#profile .avatar-wrapper {
+  grid-column: 1;
+  grid-row: 1;
+  width: 300px !important;
+  height: 375px !important;
+  margin-top: 0;
+}
+
+#profile .avatar-wrapper .avatar {
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: 4 / 5;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  object-fit: cover;
+}
+
+#profile > .text-3xl,
+#profile > .text-lg,
+#profile > h3,
+#profile > .mb-2 {
   display: none;
+}
+
+#profile > .network-icon {
+  grid-column: 1;
+  grid-row: 2;
+  justify-content: center;
+  margin: 36px 0 0;
+}
+
+#profile > .pt-2 {
+  grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#profile .bio-text {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  color: #111;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+#profile .bio-text h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+#profile .bio-text p {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+#papers {
+  margin-top: -252px;
+}
+
+#papers > .flex.flex-col.items-center {
+  width: min(586px, calc(100vw - 382px));
+  max-width: none;
+  margin-left: max(calc((100vw - 944px) / 2 + 358px), 24px);
+  margin-right: 0;
+  padding: 0;
+  align-items: flex-start;
+}
+
+#papers > .flex.flex-col.items-center > .mb-6 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+#papers > .flex.flex-col.items-center.px-6 {
+  width: min(586px, calc(100vw - 382px));
+  max-width: none;
+  margin-left: max(calc((100vw - 944px) / 2 + 358px), 24px);
+  margin-right: 0;
+  padding: 0;
+  align-items: stretch;
+}
+
+#papers .mt-16 {
+  width: 100%;
+  max-width: none;
+  margin-top: 0;
+}
+
+#papers .pub-list-item > a.underline {
+  color: #315d9b;
+}
+
+#papers .pub-list-item .li-cite-author a {
+  color: inherit;
+}
+
+.footer-license-icons,
+.page-footer .powered-by:not(.footer-license-icons) {
+  display: none !important;
+}
+
+@media (max-width: 899px) {
+  #section-resume-biography {
+    padding-top: 2rem !important;
+  }
+
+  #profile.resume-biography {
+    display: flex !important;
+    width: auto;
+    margin-inline: 24px;
+    padding: 0;
+    gap: 0;
+  }
+
+  #profile .avatar-wrapper {
+    width: min(300px, calc(100vw - 48px)) !important;
+    height: auto !important;
+  }
+
+  #profile .avatar-wrapper .avatar {
+    height: auto !important;
+  }
+
+  #profile > .network-icon {
+    align-self: stretch;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  #profile > .pt-2 {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  #papers {
+    margin-top: 0;
+  }
+
+  #papers > .flex.flex-col.items-center,
+  #papers > .flex.flex-col.items-center.px-6 {
+    width: auto;
+    margin-inline: 24px;
+    padding: 0;
+  }
 }

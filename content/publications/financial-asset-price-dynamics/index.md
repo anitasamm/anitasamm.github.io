@@ -10,13 +10,13 @@ date: "2026-07-09T00:00:00Z"
 publication_types: ["manuscript"]
 
 abstract: >
-  This paper introduces an extended Bayesian Vector Autoregressive (BVAR) model to analyse
-  macroeconomic shocks affecting the euro area (EA) from 2007 to 2024. The model incorporates a
-  newly constructed Energy Price Index (EPI) and identifies energy supply shocks alongside more
-  conventional macroeconomic drivers such as demand and supply shocks as well as both conventional
-  and unconventional monetary policy shocks. Using sign and magnitude restrictions, we decompose
-  structural drivers across eight variables. The results provide insights into the dynamics of
-  inflation expectations, energy price shocks, and monetary policy effectiveness in the euro area.
+  We introduce a two-country Bayesian Vector Autoregressive (BVAR) model for the euro area and
+  United States to identify the structural drivers of daily asset-price changes from 2007 to 2024.
+  Building on recent work, we extend the set of asset prices to include a newly constructed Energy
+  Price Index (EPI) and inflation-linked swaps. Sign and magnitude restrictions identify domestic
+  and global demand and supply shocks, including a global energy-supply shock, as well as conventional
+  and unconventional monetary-policy shocks. The results shed light on the sources of inflation
+  expectations and the post-pandemic inflation surge.
 
 summary: >
   Very early-stage working paper (title page only shared for now) extending a two-country BVAR to

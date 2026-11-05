@@ -11,12 +11,12 @@ publication:
   volume: 372
 
 abstract: >
-  This report constitutes staff input into the Governing Council's deliberation in the context of the
-  ECB's 2025 monetary policy strategy assessment. It reviews the ECB's monetary policy toolkit
-  (negative rates, forward guidance, asset purchases, TLTROs), the medium-term orientation and
-  asymmetric reaction function, the role of risk and uncertainty in policy-setting, and monetary
-  policy communication since the 2021 strategy review. The views expressed are those of the authors
-  and do not necessarily reflect those of the Eurosystem.
+  This report examines the implications of the changed inflation environment for the ECB's monetary
+  policy strategy, drawing lessons from both the low-inflation period and the post-pandemic inflation
+  surge. It reviews the ECB's evolving policy toolkit and its effects, the strategy's medium-term
+  orientation and reaction function, and how policy-setting can account for risk and uncertainty.
+  It also assesses monetary-policy communication, including challenges arising from the complexity
+  of the toolkit and communication during the inflation surge.
 
 summary: >
   Eurosystem staff report feeding into the ECB's 2025 monetary policy strategy assessment, covering
@@ -26,6 +26,7 @@ tags:
 - Monetary Policy
 - Central Banking
 - ECB
+- Policy Publication
 featured: false
 
 links:

@@ -1,0 +1,7 @@
+{{ $item := .item }}
+{{ partial "views/citation" . }}
+{{ with $item.Params.abstract }}
+  <div class="publication-abstract mt-2 text-sm leading-relaxed">
+    {{ . | markdownify }}
+  </div>
+{{ end }}

@@ -123,6 +123,28 @@
   color: inherit;
 }
 
+#working-papers > .flex.flex-col.items-center,
+#policy-publications > .flex.flex-col.items-center {
+  width: 100%;
+  max-width: 48rem;
+  margin-inline: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0;
+  padding: 0;
+}
+
+#working-papers > .flex.flex-col.items-center > .mb-6,
+#policy-publications > .flex.flex-col.items-center > .mb-6 {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+#working-papers .mt-16,
+#policy-publications .mt-16 {
+  margin-top: 0;
+}
+
 .footer-license-icons,
 .page-footer .powered-by:not(.footer-license-icons) {
   display: none !important;
